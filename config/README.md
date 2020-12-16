@@ -2,7 +2,9 @@
 
 Config is a pluggable dynamic config package
 
-Most config in applications are statically configured or include complex logic to load from multiple sources. 
+> forked from [asim/go-micro](https://github.com/asim/go-micro). just magic code change for a go.mod for only config package
+
+Most config in applications are statically configured or include complex logic to load from multiple sources.
 Go Config makes this easy, pluggable and mergeable. You'll never have to deal with config in the same way again.
 
 ## Features
@@ -26,4 +28,3 @@ values when accessing any config values directly. This ensures you'll always be 
 ## Getting Started
 
 For detailed information or architecture, installation and general usage see the [docs](https://micro.mu/docs/go-config.html)
-

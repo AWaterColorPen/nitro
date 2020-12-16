@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/config/encoder"
-	"github.com/micro/go-micro/v2/config/encoder/json"
+	"github.com/awatercolorpen/nitro/config/encoder"
+	"github.com/awatercolorpen/nitro/config/encoder/json"
 )
 
 type Options struct {

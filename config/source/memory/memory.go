@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/awatercolorpen/nitro/config/source"
 	"github.com/google/uuid"
-	"github.com/micro/go-micro/v2/config/source"
 )
 
 type memory struct {

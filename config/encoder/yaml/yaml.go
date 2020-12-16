@@ -1,8 +1,8 @@
 package yaml
 
 import (
+	"github.com/awatercolorpen/nitro/config/encoder"
 	"github.com/ghodss/yaml"
-	"github.com/micro/go-micro/v2/config/encoder"
 )
 
 type yamlEncoder struct{}

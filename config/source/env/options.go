@@ -2,10 +2,9 @@ package env
 
 import (
 	"context"
-
 	"strings"
 
-	"github.com/micro/go-micro/v2/config/source"
+	"github.com/awatercolorpen/nitro/config/source"
 )
 
 type strippedPrefixKey struct{}
